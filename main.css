@@ -144,7 +144,6 @@ img {
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  width: 124px;
   height: 48px;
   left: 0;
   border: 1px solid #6070ff;
@@ -155,4 +154,46 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+}
+
+.about_me {
+  width: 327px;
+  overflow: hidden;
+  box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0 5em 0 0;
+  background: #dfe1e6;
+  background: linear-gradient(to right, #fff, #ece9e6);
+  padding-top: 200px;
+  padding-bottom: 30px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: Poppins, sans-serif !important;
+}
+
+.social-connect {
+  text-align: left;
+  position: static;
+  left: 0;
+  top: 0;
+  font-family: 'poppins', sans-serif !important;
+  font-style: normal;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.social-media-icons {
+  display: inline-block;
+  margin: 6px;
+}
+
+.social-align {
+  padding: 0;
+  margin: 0;
+}
+
+.lowerb {
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
