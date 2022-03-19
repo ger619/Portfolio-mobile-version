@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300..700&display=swap");
 
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -35,10 +36,12 @@ img {
   display: flex;
   flex-direction: column;
   width: 327px;
+  height: 596px;
   overflow: hidden;
   box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 1em;
   background: #fff;
+  margin-bottom: 88px;
 }
 
 .card__body {
@@ -63,7 +66,6 @@ img {
 .card__footer {
   display: flex;
   padding: 1rem;
-  margin-top: auto;
 }
 
 .user {
@@ -97,8 +99,15 @@ img {
   margin: 12px 0;
 }
 
+.h5 {
+  font-weight: 600;
+  font-size: 13px;
+}
+
 .paratext {
   color: #344563;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .btn {
@@ -126,7 +135,7 @@ img {
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-  margin-top: 8px;
+  margin-top: 10px;
   font-size: 17px;
   text-align: center;
   letter-spacing: 0.03em;
@@ -162,6 +171,24 @@ img {
 .social-media-icons {
   display: inline-block;
   margin: 6px;
+}
+
+.social-media-icons1 {
+  display: inline;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  height: 24px;
+  width: 53px;
+  left: 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background: #ebebff;
 }
 
 .social-align {
