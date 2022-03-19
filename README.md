@@ -17,6 +17,13 @@
 ## Built with
 - HTML & CSS
 
+## Instructions
+
+> Download the ZIP from this location, [link]gi(https://github.com/ger619/Portfolio-mobile-version) or run the git clone [git](https://github.com/ger619/Portfolio-mobile-version.git)
+
+> Once the files are on your machine, open the folder in Visual Studio Code.
+
+> With the files open in Visual Studio Code, press the Go Live button at the bottom of the window to launch the files with Live Server.
 
 ## Authors
 
