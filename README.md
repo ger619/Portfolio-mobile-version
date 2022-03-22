@@ -33,17 +33,20 @@
 - Twitter: [@abol_ger](https://twitter.com/ger_abol)
 - LinkedIn: [David Ger](https://www.linkedin.com/in/david-ger-426b4576/)
 
-👤 **Colloborator 1**
+👤 **Colloborators**
+
+>**Ndayishimiye Eric**
 
 - GitHub: [@ndayishimiyeeric](https://github.com/ndayishimiyeeric)
 - Twitter: [@odaltongain](https://twitter.com/odaltongain)
 - LinkedIn: [Ndayishimiye Eric](https://linkedin.com/in/nderic)
 
-👤 **Colloborator 2**
+-
+👤 **Eid Hachem**
 
-- GitHub: [@ndayishimiyeeric](https://github.com/ndayishimiyeeric)
-- Twitter: [@odaltongain](https://twitter.com/odaltongain)
-- LinkedIn: [Ndayishimiye Eric](https://linkedin.com/in/nderic)
+- GitHub: [@EidHachem](https://github.com/EidHachem)
+- Twitter: [@eidHachem1](https://twitter.com/eidHachem1)
+- LinkedIn: [eid-hachem](https://linkedin.com/in/eid-hachem)
 
 ## Acknowledgments
 
