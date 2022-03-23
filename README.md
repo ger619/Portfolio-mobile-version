@@ -27,15 +27,15 @@
 
 ## Authors
 
-👤 **Author: David Ger**
+👤 **David Ger**
 
 - GitHub: [@ger619](https://github.com/ger619)
 - Twitter: [@abol_ger](https://twitter.com/ger_abol)
 - LinkedIn: [David Ger](https://www.linkedin.com/in/david-ger-426b4576/)
 
-👤 **Colloborators**
+**Colloborators**
 
->**Ndayishimiye Eric**
+👤 **Ndayishimiye Eric**
 
 - GitHub: [@ndayishimiyeeric](https://github.com/ndayishimiyeeric)
 - Twitter: [@odaltongain](https://twitter.com/odaltongain)
