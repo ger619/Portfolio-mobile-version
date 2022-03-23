@@ -41,7 +41,6 @@
 - Twitter: [@odaltongain](https://twitter.com/odaltongain)
 - LinkedIn: [Ndayishimiye Eric](https://linkedin.com/in/nderic)
 
--
 👤 **Eid Hachem**
 
 - GitHub: [@EidHachem](https://github.com/EidHachem)
