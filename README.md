@@ -11,7 +11,7 @@
 > This project is about setting up a mobile version
 
 # Screenshot
- > This is the first [interface](./images/Screenshot.png), second [interface](./images/Screenshot2.png) and the third [interface](./images/Screenshot3.png)
+ > This is the first [interface](./images/Screenshot.png), second [interface](./images/Screenshot2.png), third [interface](./images/Screenshot3.png) and the fourth [interface](./images/Screenshot4.png)
 
 
 ## Built with
@@ -19,7 +19,7 @@
 
 ## Instructions
 
-> Download the ZIP from this location, [link]gi(https://github.com/ger619/Portfolio-mobile-version) or run the git clone [git](https://github.com/ger619/Portfolio-mobile-version.git)
+> Download the ZIP from this location, [link](https://github.com/ger619/Portfolio-mobile-version) or run the git clone [git](https://github.com/ger619/Portfolio-mobile-version.git)
 
 > Once the files are on your machine, open the folder in Visual Studio Code.
 
@@ -27,12 +27,26 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **Author: David Ger**
 
 - GitHub: [@ger619](https://github.com/ger619)
 - Twitter: [@abol_ger](https://twitter.com/ger_abol)
 - LinkedIn: [David Ger](https://www.linkedin.com/in/david-ger-426b4576/)
 
+👤 **Colloborators**
+
+>**Ndayishimiye Eric**
+
+- GitHub: [@ndayishimiyeeric](https://github.com/ndayishimiyeeric)
+- Twitter: [@odaltongain](https://twitter.com/odaltongain)
+- LinkedIn: [Ndayishimiye Eric](https://linkedin.com/in/nderic)
+
+-
+👤 **Eid Hachem**
+
+- GitHub: [@EidHachem](https://github.com/EidHachem)
+- Twitter: [@eidHachem1](https://twitter.com/eidHachem1)
+- LinkedIn: [eid-hachem](https://linkedin.com/in/eid-hachem)
 
 ## Acknowledgments
 
