@@ -11,7 +11,7 @@
 > This project is about setting up a mobile version
 
 # Screenshot
- > This is the first [interface](./images/Screenshot.png), second [interface](./images/Screenshot2.png) and the third [interface](./images/Screenshot3.png)
+ > This is the first [interface](./images/Screenshot.png), second [interface](./images/Screenshot2.png), third [interface](./images/Screenshot3.png) and the fourth [interface](./images/Screenshot4.png)
 
 
 ## Built with
@@ -19,7 +19,7 @@
 
 ## Instructions
 
-> Download the ZIP from this location, [link]gi(https://github.com/ger619/Portfolio-mobile-version) or run the git clone [git](https://github.com/ger619/Portfolio-mobile-version.git)
+> Download the ZIP from this location, [link](https://github.com/ger619/Portfolio-mobile-version) or run the git clone [git](https://github.com/ger619/Portfolio-mobile-version.git)
 
 > Once the files are on your machine, open the folder in Visual Studio Code.
 
