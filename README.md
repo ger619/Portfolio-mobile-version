@@ -1,4 +1,4 @@
-# Portfolio: mobile version
+# Portfolio: mobile version and desktop app i.e. responsive
 
 # Project Description
 
@@ -19,7 +19,7 @@
 
 ## Instructions
 
-> Download the ZIP from this location, [link](https://github.com/ger619/Portfolio-mobile-version) or run the git clone [git](https://github.com/ger619/Portfolio-mobile-version.git)
+> Download the ZIP from this location, [link](https://github.com/ger619/Portfolio-mobile-version) or run the git clone [git](https://github.com/ger619/Portfolio-mobile-version.git) branch created_side_bar
 
 > Once the files are on your machine, open the folder in Visual Studio Code.
 
@@ -33,20 +33,6 @@
 - Twitter: [@abol_ger](https://twitter.com/ger_abol)
 - LinkedIn: [David Ger](https://www.linkedin.com/in/david-ger-426b4576/)
 
-👤 **Colloborators**
-
->**Ndayishimiye Eric**
-
-- GitHub: [@ndayishimiyeeric](https://github.com/ndayishimiyeeric)
-- Twitter: [@odaltongain](https://twitter.com/odaltongain)
-- LinkedIn: [Ndayishimiye Eric](https://linkedin.com/in/nderic)
-
--
-👤 **Eid Hachem**
-
-- GitHub: [@EidHachem](https://github.com/EidHachem)
-- Twitter: [@eidHachem1](https://twitter.com/eidHachem1)
-- LinkedIn: [eid-hachem](https://linkedin.com/in/eid-hachem)
 
 ## Acknowledgments
 
