@@ -27,7 +27,7 @@
 
 ## Authors
 
-👤 **Author: David Ger**
+👤 **David Ger**
 
 - GitHub: [@ger619](https://github.com/ger619)
 - Twitter: [@abol_ger](https://twitter.com/ger_abol)
