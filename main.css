@@ -281,8 +281,11 @@ h1 {
 }
 
 .btn:active {
-    background: #6070ff;
-    color: #fff;
+   
+ background-color: white;
+ color: #6070ff;
+ box-shadow: 0 5px #666eee;
+ transform: translateY(4px);
 }
 
 .btn:disabled {
@@ -735,6 +738,14 @@ textarea.msg {
         font-size: 17px;
         margin-left: 112px;
     }
+
+    .btn-2:active {
+        background-color: white;f
+        color: #6070ff;
+        box-shadow: 0 5px #666eee;
+        transform: translateY(4px);
+    }
+
     .card-section {
         width: 100%;
     }
