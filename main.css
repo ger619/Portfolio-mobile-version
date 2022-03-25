@@ -757,6 +757,11 @@ textarea.msg {
         height: 400px;
         justify-content: center;
     }
+
+    .card-list:hover {
+        border: 1px solid #396df2;
+        box-shadow: 0 20px 15px #6b778c;
+    }
     .card-dsk {
         display: flex;
         flex-direction: column;
@@ -770,6 +775,12 @@ textarea.msg {
         flex-direction: row;
         justify-content: center;
     }
+
+    .card-list-2:hover {
+        border: 1px solid #396df2;
+        box-shadow: 0 20px 15px #666eee;
+    }
+
     .card-list-5 {
         display: grid;
         height: 811px;
