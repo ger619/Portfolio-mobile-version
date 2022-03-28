@@ -17,6 +17,9 @@
 ## Built with
 - HTML & CSS
 
+## Link to the live page ##
+
+
 ## Instructions
 
 > Download the ZIP from this location, [link](https://github.com/ger619/Portfolio-mobile-version) or run the git clone [git](https://github.com/ger619/Portfolio-mobile-version.git) branch created_side_bar
@@ -32,6 +35,24 @@
 - GitHub: [@ger619](https://github.com/ger619)
 - Twitter: [@abol_ger](https://twitter.com/ger_abol)
 - LinkedIn: [David Ger](https://www.linkedin.com/in/david-ger-426b4576/)
+
+## Collaborators
+
+👤 Eid Hachem
+
+- GitHub: [@EidHachem](https://github.com/EidHachem)
+- Twitter: [@eidHachem1](https://twitter.com/eidHachem1)
+- LinkedIn: [eid-hachem](https://linkedin.com/in/eid-hachem)
+
+👤 ndayishimiyeeric
+
+- GitHub: [@Odalton](https://github.com/ndayishimiyeeric)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://ger619.github.io/Portfolio-mobile-version/).
 
 
 ## Acknowledgments
