@@ -62,7 +62,7 @@ To get a local copy follow these simple steps:
 
 -Copy this link https://ger619.github.io/Portfolio-mobile-version/.
 
--Create a local directory that you want to clone the repository.
+- Create a local directory that you want to clone the repository.
 
 - Open the command prompt in the created directory.
 
@@ -72,6 +72,7 @@ To get a local copy follow these simple steps:
  
 - Install the dev dependencies for linters run npm install.
 
+-
 
 ## Acknowledgments
 
