@@ -1,6 +1,4 @@
-# Portfolio: mobile version and desktop app i.e. responsive
-
-# Project Description
+# Portfolio: Mobile Version and Desktop app i.e. responsive
 
 > For the second milestone in building your portfolio website, 
 > you will create the mobile website section where you will list your portfolio projects.
@@ -18,6 +16,8 @@
 - HTML & CSS
 
 ## Link to the live page ##
+
+> Feel free to check the [Portfolio-link](https://ger619.github.io/Portfolio-mobile-version/).
 
 
 ## Instructions
@@ -60,7 +60,7 @@ Feel free to check the [issues page](https://ger619.github.io/Portfolio-mobile-v
 ## Getting Started
 To get a local copy follow these simple steps:
 
--Copy this link https://ger619.github.io/Portfolio-mobile-version/.
+- Copy this link https://ger619.github.io/Portfolio-mobile-version/.
 
 - Create a local directory that you want to clone the repository.
 
@@ -72,7 +72,6 @@ To get a local copy follow these simple steps:
  
 - Install the dev dependencies for linters run npm install.
 
--
 
 ## Acknowledgments
 
