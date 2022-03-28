@@ -61,11 +61,16 @@ Feel free to check the [issues page](https://ger619.github.io/Portfolio-mobile-v
 To get a local copy follow these simple steps:
 
 -Copy this link https://ger619.github.io/Portfolio-mobile-version/.
+
 -Create a local directory that you want to clone the repository.
--Open the command prompt in the created directory.
--write git clone https://github.com/ger619/Portfolio-mobile-version.git.
--Go to the repository folder using command prompt cd Portfolio-mobile-version.
--Install the dev dependencies for linters run npm install.
+
+- Open the command prompt in the created directory.
+
+- On the terminal run this command git clone https://github.com/ger619/Portfolio-mobile-version.git.
+
+- Go to the repository folder using command prompt cd Portfolio-mobile-version.
+ 
+- Install the dev dependencies for linters run npm install.
 
 
 ## Acknowledgments
