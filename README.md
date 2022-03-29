@@ -1,4 +1,4 @@
-# Portfolio: Mobile Version and Desktop app i.e. responsive
+# Portfolio: Mobile & Desktop App 
 
 > For the second milestone in building your portfolio website, 
 > you will create the mobile website section where you will list your portfolio projects.
@@ -46,27 +46,28 @@ Contributions, issues, and feature requests are welcome!
 
 
 ## Live Demo
-Feel free to check the [issues page](https://ger619.github.io/Portfolio-mobile-version/).
+Feel free to check the [issues page](https://github.com/ger619/Portfolio-mobile-version/issues).
 
 
-## Getting Started Instructions
-To run the portfolio:
+## Getting Started
+To get a local copy follow these simple steps:
 
 - Copy this link https://ger619.github.io/Portfolio-mobile-version/.
 
 - Create a local directory that you want to clone the repository.
 
+
 - Open the command prompt in the created directory.
+
 
 - On the terminal run this command git clone https://github.com/ger619/Portfolio-mobile-version.git.
 
-- Once the files are on your machine, open the folder in Visual Studio Code.
 
 - Go to the repository folder using command prompt cd Portfolio-mobile-version.
- 
+
+
 - Install the dev dependencies for linters run npm install.
 
-- With the files open in Visual Studio Code, press the Go Live button at the bottom of the window to launch the files with Live Server.
 
 
 ## Acknowledgments
