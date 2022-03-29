@@ -62,7 +62,6 @@ To get a local copy follow these simple steps:
 
 - Copy this link https://ger619.github.io/Portfolio-mobile-version/.
 
-
 - Create a local directory that you want to clone the repository.
 
 
