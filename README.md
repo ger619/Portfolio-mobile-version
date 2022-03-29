@@ -1,4 +1,4 @@
-# Portfolio: Mobile Version and Desktop app i.e. responsive
+# Portfolio: Mobile & Desktop App 
 
 > For the second milestone in building your portfolio website, 
 > you will create the mobile website section where you will list your portfolio projects.
@@ -19,14 +19,6 @@
 
 > Feel free to check the [Portfolio-link](https://ger619.github.io/Portfolio-mobile-version/).
 
-
-## Instructions
-
-> Download the ZIP from this location, [link](https://github.com/ger619/Portfolio-mobile-version) or run the git clone [git](https://github.com/ger619/Portfolio-mobile-version.git) branch created_side_bar
-
-> Once the files are on your machine, open the folder in Visual Studio Code.
-
-> With the files open in Visual Studio Code, press the Go Live button at the bottom of the window to launch the files with Live Server.
 
 ## Authors
 
