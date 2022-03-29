@@ -20,14 +20,6 @@
 > Feel free to check the [Portfolio-link](https://ger619.github.io/Portfolio-mobile-version/).
 
 
-## Instructions
-
-> Download the ZIP from this location, [link](https://github.com/ger619/Portfolio-mobile-version) or run the git clone [git](https://github.com/ger619/Portfolio-mobile-version.git) branch created_side_bar
-
-> Once the files are on your machine, open the folder in Visual Studio Code.
-
-> With the files open in Visual Studio Code, press the Go Live button at the bottom of the window to launch the files with Live Server.
-
 ## Authors
 
 👤 **David Ger**
@@ -57,8 +49,8 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://ger619.github.io/Portfolio-mobile-version/).
 
 
-## Getting Started
-To get a local copy follow these simple steps:
+## Getting Started Instructions
+To run the portfolio:
 
 - Copy this link https://ger619.github.io/Portfolio-mobile-version/.
 
@@ -68,9 +60,13 @@ To get a local copy follow these simple steps:
 
 - On the terminal run this command git clone https://github.com/ger619/Portfolio-mobile-version.git.
 
+- Once the files are on your machine, open the folder in Visual Studio Code.
+
 - Go to the repository folder using command prompt cd Portfolio-mobile-version.
  
 - Install the dev dependencies for linters run npm install.
+
+- With the files open in Visual Studio Code, press the Go Live button at the bottom of the window to launch the files with Live Server.
 
 
 ## Acknowledgments
