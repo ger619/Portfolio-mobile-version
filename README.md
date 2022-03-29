@@ -53,10 +53,6 @@
 Contributions, issues, and feature requests are welcome!
 
 
-## Live Demo
-Feel free to check the [issues page](https://github.com/ger619/Portfolio-mobile-version/issues).
-
-
 ## Getting Started
 To get a local copy follow these simple steps:
 
