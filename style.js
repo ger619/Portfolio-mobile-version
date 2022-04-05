@@ -16,13 +16,13 @@ window.onload = function() {
     closeMenu.addEventListener('click', close);
 
     function redirect() {
-        let location = window.location;
-        let initial = location.pathname;
+        const location = window.location;
+        const initial = location.pathname;
         console.log(location);
     }
     mainMenu.forEach((link) => {
-        link.addEventListener('click', function(e) {
-            div.style.display = "none";
+        link.addEventListener('click', function() {
+            ul.style.display = "none";
             reload();
         });
     });
