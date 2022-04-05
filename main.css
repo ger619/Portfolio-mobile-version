@@ -970,9 +970,10 @@ textarea.msg {
   }
 
   input#email {
-    width: 379px;
     height: 37px;
   }
+
+  width: 379px;
 
   textarea.msg {
     width: 379px;
