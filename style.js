@@ -3,12 +3,12 @@ const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 
 function show() {
-    mainMenu.style.display = 'flex';
-    mainMenu.style.top = '0';
+  mainMenu.style.display = 'flex';
+  mainMenu.style.top = '0';
 }
 
 function close() {
-    mainMenu.style.top = '-100%';
+  mainMenu.style.top = '-100%';
 }
 
 openMenu.addEventListener('click', show);
@@ -20,40 +20,40 @@ const homeCard = document.getElementById('home-portfolio');
 
 const cards = [{
 
-    id: 1,
-    title: 'Tonic',
-    imageM: './images/Portfolio.png',
-    imageD: './images/Portfolio1-big.png',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'javascript'],
+  id: 1,
+  title: 'Tonic',
+  imageM: './images/Portfolio.png',
+  imageD: './images/Portfolio1-big.png',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  languages: ['html', 'css', 'javascript'],
 
 }, {
-    id: 2,
-    title: 'Tonic',
-    imageM: './images/multi-post.png.svg',
-    imageD: './images/Portfolio2.png',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'javascript'],
+  id: 2,
+  title: 'Tonic',
+  imageM: './images/multi-post.png.svg',
+  imageD: './images/Portfolio2.png',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  languages: ['html', 'css', 'javascript'],
 }, {
 
-    id: 3,
-    title: 'Tonic',
-    imageM: './images/Portfolio3.png',
-    imageD: './images/PopUpdesktop.svg',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'javascript'],
+  id: 3,
+  title: 'Tonic',
+  imageM: './images/Portfolio3.png',
+  imageD: './images/PopUpdesktop.svg',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  languages: ['html', 'css', 'javascript'],
 
 }, {
-    id: 4,
-    title: 'Tonic',
-    imageM: './images/PopUpmobile.svg',
-    imageD: './images/PopUpdesktop.svg',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'javascript'],
+  id: 4,
+  title: 'Tonic',
+  imageM: './images/PopUpmobile.svg',
+  imageD: './images/PopUpdesktop.svg',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  languages: ['html', 'css', 'javascript'],
 
 }];
 
@@ -112,7 +112,8 @@ const modalCard = [{
 const modalCardDisplay = modalCard.map((modeCard) => `
 
 <div class="card-portfolio-1">
-      <span class="X" id="X" >&#10005;</span>
+
+            <li class="pop-close"><i class="fa fa-times"></i></li>
           <h2 class="tonic-1">${modeCard.title}</h2>
           <h5 class="heading-canopy"><b>CANOPY</b> <span>·</span><small> Back End Dev <span>·</span> 2015 </small> </h5>
              
@@ -160,7 +161,6 @@ const modalCardDisplay = modalCard.map((modeCard) => `
 modalCards.innerHTML += modalCardDisplay;
 
 const boxModal = document.querySelector('.card-portfolio-1');
-const closeModal = document.querySelector('X');
 const openModal = document.querySelectorAll('.btn');
 
 openModal.forEach((open) => {
@@ -169,5 +169,10 @@ openModal.forEach((open) => {
   });
 });
 
+// to close a modal
+const popClose = document.querySelector('.pop-close');
 
-closeModal.addEventListener('click', false);
+popClose.addEventListener('click', () => {
+  boxModal.style.display = 'none';
+  document.querySelector('.btn').style.display = 'none';
+});
