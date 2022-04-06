@@ -1018,11 +1018,8 @@ nav .openMenu {
   cursor: pointer;
 }
 
-nav .mainMenu .closeMenu,
-.icons i {
-  font-size: 2rem;
+nav .mainMenu .closeMenu {
   display: none;
-  cursor: pointer;
 }
 
 @media (max-width: 768px) {

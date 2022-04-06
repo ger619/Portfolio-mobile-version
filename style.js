@@ -15,7 +15,7 @@ window.onload = function openWindow() {
   openMenu.addEventListener('click', show);
   closeMenu.addEventListener('click', close);
 
-  mainMenu.addEventListener('click', () => {
-    mainMenu.style.display = 'none';
+  closeMenu.addEventListener('click', () => {
+    closeMenu.style.display = 'none';
   });
 };
