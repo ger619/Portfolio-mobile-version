@@ -173,7 +173,6 @@ openModal.forEach((open) => {
 
 // to close a modal
 const popClose = document.querySelector('.pop-close');
-
 popClose.addEventListener('click', () => {
   boxModal.style.display = 'none';
   document.querySelector('.btn').style.display = 'none';
