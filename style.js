@@ -31,7 +31,7 @@ const cards = [{
 }, {
   id: 2,
   title: 'Tonic',
-  imageM: './images/multi-post.png.svg',
+  imageM: './images/multi-post.png',
   imageD: './images/Portfolio2.png',
   heading2: ['Canopy', 'Back End Dev', '2015'],
   cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -101,7 +101,7 @@ const modalCard = [{
   imageD: './images/PopUpdesktopcopy.svg',
   heading2: ['Canopy', 'Back End Dev', '2015'],
   cardDescriptionD: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript",
-  cardDescriptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It hassurvived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+  cardDescriptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ",
   languagesD: ['github', 'ruby', 'Bootstrap'],
   languagesM: ['html', 'css', 'javascript'],
   linkLive: 'https://ger619.github.io/Portfolio-mobile-version/',
@@ -137,14 +137,14 @@ const modalCardDisplay = modalCard.map((modeCard) => `
           <ul class="modal-1">
               ${modeCard.languagesM.map((lang) => `<li class="modal-2">${lang}</li>`).join('')}
           </ul>
-          <ul class="miss modal-1">
+          <ul id="miss" class="miss modal-1">
           ${modeCard.languagesD.map((lang) => `<li class="modal-2">${lang}</li>`).join('')}
           
           </ul>
           <hr>
           <ul class="modal-1">
-              <li class="modal-2" href="${modeCard.linkLive}">See live &#8599</li>
-              <li class="modal-2" href="${modeCard.linkSource}">See Source <i class="fa fa-github"></i></li>
+              <li class="modal-3" href="${modeCard.linkLive}">See live &#8599</li>
+              <li class="modal-3" href="${modeCard.linkSource}">See Source <i class="fa fa-github"></i></li>
 
           </ul>
 
@@ -164,10 +164,12 @@ modalCards.innerHTML += modalCardDisplay;
 
 const boxModal = document.querySelector('.card-portfolio-1');
 const openModal = document.querySelectorAll('.btn');
+const body = document.querySelector('.cards-section');
 
 openModal.forEach((open) => {
   open.addEventListener('click', () => {
     boxModal.style.display = 'block';
+    body.style.filter = 'blur(4px)';
   });
 });
 
@@ -175,5 +177,6 @@ openModal.forEach((open) => {
 const popClose = document.querySelector('.pop-close');
 popClose.addEventListener('click', () => {
   boxModal.style.display = 'none';
+  body.style.filter = 'none';
   document.querySelector('.btn').style.display = 'none';
 });
