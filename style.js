@@ -4,14 +4,14 @@ const openMenu = document.querySelector('.openMenu');
 const bod = document.querySelector('.landing');
 
 function show() {
-  mainMenu.style.display = 'flex';
-  mainMenu.style.top = '0';
-  bod.style.filter = 'blur(5px)';
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
+    bod.style.filter = 'blur(5px)';
 }
 
 function close() {
-  mainMenu.style.top = '-100%';
-  bod.style.filter = 'blur(5px)';
+    mainMenu.style.top = '-100%';
+    bod.style.filter = 'blur(5px)';
 }
 
 openMenu.addEventListener('click', show);
@@ -20,46 +20,46 @@ closeMenu.addEventListener('click', close);
 const homeCard = document.getElementById('home-portfolio');
 
 const cards = [{
-  id: 1,
-  title: 'Tonic',
-  imageM: './images/Portfolio.png',
-  imageD: './images/Portfolio1-big.png',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
-},
-{
-  id: 2,
-  title: 'Tonic',
-  imageM: './images/multi-post.png',
-  imageD: './images/Portfolio2.png',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
-},
-{
-  id: 3,
-  title: 'Tonic',
-  imageM: './images/Portfolio3.png',
-  imageD: './images/PopUpdesktop.svg',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
-},
-{
-  id: 4,
-  title: 'Tonic',
-  imageM: './images/PopUpmobile.svg',
-  imageD: './images/PopUpdesktop.svg',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
-},
+        id: 1,
+        title: 'Tonic',
+        imageM: './images/Portfolio.png',
+        imageD: './images/Portfolio1-big.png',
+        heading2: ['Canopy', 'Back End Dev', '2015'],
+        cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        languages: ['html', 'css', 'javascript'],
+    },
+    {
+        id: 2,
+        title: 'Tonic',
+        imageM: './images/multi-post.png',
+        imageD: './images/Portfolio2.png',
+        heading2: ['Canopy', 'Back End Dev', '2015'],
+        cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        languages: ['html', 'css', 'javascript'],
+    },
+    {
+        id: 3,
+        title: 'Tonic',
+        imageM: './images/Portfolio3.png',
+        imageD: './images/PopUpdesktop.svg',
+        heading2: ['Canopy', 'Back End Dev', '2015'],
+        cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        languages: ['html', 'css', 'javascript'],
+    },
+    {
+        id: 4,
+        title: 'Tonic',
+        imageM: './images/PopUpmobile.svg',
+        imageD: './images/PopUpdesktop.svg',
+        heading2: ['Canopy', 'Back End Dev', '2015'],
+        cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+        languages: ['html', 'css', 'javascript'],
+    },
 ];
 
 const portfolioCards = cards
-  .map(
-    (card, index) => `
+    .map(
+        (card, index) => `
 
 
 
@@ -164,7 +164,7 @@ const modalCardDisplay = modalCard
           <ul class="modal-1">
               <li class="modal-3" href="${
   modeCard.linkLive
-}">See live &#8599</li>
+}">See live <img class="btnimag" src="./images/icon/Icon.png"></li>
               <li class="modal-3" href="${
   modeCard.linkSource
 }">See Source <i class="fa fa-github"></i></li>
