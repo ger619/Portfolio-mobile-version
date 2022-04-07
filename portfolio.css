@@ -95,9 +95,6 @@
   }
 }
 
-
-/* For Desktop */
-
 @media (min-width: 768px) {
   .images-fit {
     width: 100%;
