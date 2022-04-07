@@ -3,12 +3,12 @@ const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 
 function show() {
-  mainMenu.style.display = 'flex';
-  mainMenu.style.top = '0';
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
 }
 
 function close() {
-  mainMenu.style.top = '-100%';
+    mainMenu.style.top = '-100%';
 }
 
 openMenu.addEventListener('click', show);
@@ -20,40 +20,40 @@ const homeCard = document.getElementById('home-portfolio');
 
 const cards = [{
 
-  id: 1,
-  title: 'Tonic',
-  imageM: './images/Portfolio.png',
-  imageD: './images/Portfolio1-big.png',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
+    id: 1,
+    title: 'Tonic',
+    imageM: './images/Portfolio.png',
+    imageD: './images/Portfolio1-big.png',
+    heading2: ['Canopy', 'Back End Dev', '2015'],
+    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    languages: ['html', 'css', 'javascript'],
 
 }, {
-  id: 2,
-  title: 'Tonic',
-  imageM: './images/multi-post.png.svg',
-  imageD: './images/Portfolio2.png',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
+    id: 2,
+    title: 'Tonic',
+    imageM: './images/multi-post.png.svg',
+    imageD: './images/Portfolio2.png',
+    heading2: ['Canopy', 'Back End Dev', '2015'],
+    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    languages: ['html', 'css', 'javascript'],
 }, {
 
-  id: 3,
-  title: 'Tonic',
-  imageM: './images/Portfolio3.png',
-  imageD: './images/PopUpdesktop.svg',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
+    id: 3,
+    title: 'Tonic',
+    imageM: './images/Portfolio3.png',
+    imageD: './images/PopUpdesktop.svg',
+    heading2: ['Canopy', 'Back End Dev', '2015'],
+    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    languages: ['html', 'css', 'javascript'],
 
 }, {
-  id: 4,
-  title: 'Tonic',
-  imageM: './images/PopUpmobile.svg',
-  imageD: './images/PopUpdesktop.svg',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
+    id: 4,
+    title: 'Tonic',
+    imageM: './images/PopUpmobile.svg',
+    imageD: './images/PopUpdesktop.svg',
+    heading2: ['Canopy', 'Back End Dev', '2015'],
+    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    languages: ['html', 'css', 'javascript'],
 
 }];
 
@@ -98,7 +98,7 @@ const modalCard = [{
   id: 1,
   title: 'Tonic',
   imageM: './images/PopUpmobile.svg',
-  imageD: './images/PopUpdesktop.svg',
+  imageD: './images/PopUpdesktopcopy.svg',
   heading2: ['Canopy', 'Back End Dev', '2015'],
   cardDescriptionD: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript",
   cardDescriptionM: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It hassurvived not only five centuries, but also the leap into electronic typesetting, remaining essent",
@@ -114,17 +114,19 @@ const modalCardDisplay = modalCard.map((modeCard) => `
 <div class="card-portfolio-1">
 
             <li class="pop-close"><i class="fa fa-times"></i></li>
-          <h2 class="tonic-1">${modeCard.title}</h2>
-          <h5 class="heading-canopy"><b>CANOPY</b> <span>·</span><small> Back End Dev <span>·</span> 2015 </small> </h5>
-             
-      <img class="forD-1" src="${modeCard.imageD}" alt="Pop Up Desktop" >
+                <h2 class="tonic-1">${modeCard.title}</h2>
+                    <h5 class="heading-canopy"><b>CANOPY</b> <span>·</span><small> Back End Dev <span>·</span> 2015 </small> </h5>
+         <div class="images">
+         <img class="forD-1" src="${modeCard.imageD}" alt="Pop Up Desktop" >
       <img class="forM-1" src="${modeCard.imageM}" alt="Pop Up Mobile" >
 
+         </div>    
+      
       <div>
       <div class="row">
       <div class="column-left-1">
           <p class="forD-1">
-              ${modeCard.cardDescriptionD}
+              ${modeCard.cardDescriptionM}
           </p>
           <p class="forM-1">
               ${modeCard.cardDescriptionM}
@@ -136,7 +138,7 @@ const modalCardDisplay = modalCard.map((modeCard) => `
               ${modeCard.languagesM.map((lang) => `<li class="modal-2">${lang}</li>`).join('')}
           </ul>
           <ul class="miss modal-1">
-          ${modeCard.languagesM.map((lang) => `<li class="modal-2">${lang}</li>`).join('')}
+          ${modeCard.languagesD.map((lang) => `<li class="modal-2">${lang}</li>`).join('')}
           
           </ul>
           <hr>
