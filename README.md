@@ -35,7 +35,6 @@
 - GitHub: [@EidHachem](https://github.com/EidHachem)
 - Twitter: [@eidHachem1](https://twitter.com/eidHachem1)
 - LinkedIn: [eid-hachem](https://linkedin.com/in/eid-hachem)
--
 
 👤 ndayishimiyeeric
 
@@ -43,9 +42,9 @@
 
 👤 Joy Kwamboka
 
--Github: [@kwambiee](https://github.com/kwambiee)
--Twitter:[@kwambiee](https://twitter.com/kwamboka)
--LinkedIn: [@joy-kwamboka](https://linkedin.com/in/joy-kwamboka)
+- Github: [@kwambiee](https://github.com/kwambiee)
+- Twitter:[@kwambiee](https://twitter.com/kwamboka)
+- LinkedIn: [@joy-kwamboka](https://linkedin.com/in/joy-kwamboka)
 
 ## 🤝 Contributing
 
