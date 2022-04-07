@@ -177,4 +177,3 @@ popClose.addEventListener('click', () => {
   boxModal.style.display = 'none';
   document.querySelector('.btn').style.display = 'none';
 });
-
