@@ -3,12 +3,12 @@ const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 
 function show() {
-    mainMenu.style.display = 'flex';
-    mainMenu.style.top = '0';
+  mainMenu.style.display = 'flex';
+  mainMenu.style.top = '0';
 }
 
 function close() {
-    mainMenu.style.top = '-100%';
+  mainMenu.style.top = '-100%';
 }
 
 openMenu.addEventListener('click', show);
@@ -20,40 +20,40 @@ const homeCard = document.getElementById('home-portfolio');
 
 const cards = [{
 
-    id: 1,
-    title: 'Tonic',
-    imageM: './images/Portfolio.png',
-    imageD: './images/Portfolio1-big.png',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'javascript'],
+  id: 1,
+  title: 'Tonic',
+  imageM: './images/Portfolio.png',
+  imageD: './images/Portfolio1-big.png',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  languages: ['html', 'css', 'javascript'],
 
 }, {
-    id: 2,
-    title: 'Tonic',
-    imageM: './images/multi-post.png.svg',
-    imageD: './images/Portfolio2.png',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'javascript'],
+  id: 2,
+  title: 'Tonic',
+  imageM: './images/multi-post.png.svg',
+  imageD: './images/Portfolio2.png',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  languages: ['html', 'css', 'javascript'],
 }, {
 
-    id: 3,
-    title: 'Tonic',
-    imageM: './images/Portfolio3.png',
-    imageD: './images/PopUpdesktop.svg',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'javascript'],
+  id: 3,
+  title: 'Tonic',
+  imageM: './images/Portfolio3.png',
+  imageD: './images/PopUpdesktop.svg',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  languages: ['html', 'css', 'javascript'],
 
 }, {
-    id: 4,
-    title: 'Tonic',
-    imageM: './images/PopUpmobile.svg',
-    imageD: './images/PopUpdesktop.svg',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
-    cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: ['html', 'css', 'javascript'],
+  id: 4,
+  title: 'Tonic',
+  imageM: './images/PopUpmobile.svg',
+  imageD: './images/PopUpdesktop.svg',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  languages: ['html', 'css', 'javascript'],
 
 }];
 
