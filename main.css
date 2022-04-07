@@ -119,6 +119,7 @@ h1 {
 .card-section {
   background: #e5e5e5;
   padding-top: 34px;
+  align-items: center;
 }
 
 .cards-ul {
@@ -742,10 +743,10 @@ textarea.msg {
   .card-list {
     width: 899px;
     display: flex;
-    align-items: center;
     flex-direction: row;
     height: 400px;
     justify-content: center;
+    margin-left: 142px;
   }
 
   .card-dsk {
