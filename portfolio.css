@@ -279,3 +279,14 @@
     text-align: center;
   }
 }
+
+#form-message-error {
+  visibility: hidden;
+  transition: visibility 0.2s ease-in-out;
+  background-color: #f00;
+  color: #fff;
+  font-size: 12px;
+  width: 292px;
+  align-items: center;
+  margin-left: 32px;
+}
