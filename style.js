@@ -61,8 +61,6 @@ const portfolioCards = cards
   .map(
     (card, index) => `
 
-
-
 <li>
 <section class=" card-list card-list${index}">
                     <div>
@@ -87,7 +85,7 @@ const portfolioCards = cards
     .join('')}
                           </ul>
                         
-                        <div class="view-project">
+                       <div class="view-project">
                            <button class="btn" type="button" onclick="showPop(${
   card.id
 })">See Project</button>
@@ -170,23 +168,15 @@ const modalCardDisplay = modalCard
 }">See Source <i class="fa fa-github"></i></li>
 
           </ul>
-
-
       </div>
-
   </div>
       </div>
-
-
   </div>
-
-
 `,
   )
   .join('');
 
 modalCards.innerHTML += modalCardDisplay;
-
 const boxModal = document.querySelector('.card-portfolio-1');
 const openModal = document.querySelectorAll('.btn');
 const body = document.querySelector('.cards-section');
@@ -205,3 +195,10 @@ popClose.addEventListener('click', () => {
   body.style.filter = 'none';
   document.querySelector('.btn').style.display = 'none';
 });
+
+// Form Validation
+
+const email = document.getElementById('email');
+const form = document.getElementById('form-email');
+const displayMsg = document.getElementById('form-message-error');
+displayMsg.innerHTML = 'Your email address should be in lowercase';
