@@ -1,60 +1,65 @@
-const mainMenu = document.querySelector('.mainMenu');
-const closeMenu = document.querySelector('.closeMenu');
-const openMenu = document.querySelector('.openMenu');
-const bod = document.querySelector('.landing');
+const mainMenu = document.querySelector(".mainMenu");
+const closeMenu = document.querySelector(".closeMenu");
+const openMenu = document.querySelector(".openMenu");
+const bod = document.querySelector(".landing");
 
 function show() {
-  mainMenu.style.display = 'flex';
-  mainMenu.style.top = '0';
-  bod.style.filter = 'blur(5px)';
+  mainMenu.style.display = "flex";
+  mainMenu.style.top = "0";
+  bod.style.filter = "blur(5px)";
 }
 
 function close() {
-  mainMenu.style.top = '-100%';
-  bod.style.filter = 'blur(5px)';
+  mainMenu.style.top = "-100%";
+  bod.style.filter = "blur(5px)";
 }
 
-openMenu.addEventListener('click', show);
-closeMenu.addEventListener('click', close);
+openMenu.addEventListener("click", show);
+closeMenu.addEventListener("click", close);
 
-const homeCard = document.getElementById('home-portfolio');
+const homeCard = document.getElementById("home-portfolio");
 
-const cards = [{
-  id: 1,
-  title: 'Tonic',
-  imageM: './images/Portfolio.png',
-  imageD: './images/Portfolio1-big.png',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
-},
-{
-  id: 2,
-  title: 'Tonic',
-  imageM: './images/multi-post.png',
-  imageD: './images/Portfolio2.png',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
-},
-{
-  id: 3,
-  title: 'Tonic',
-  imageM: './images/Portfolio3.png',
-  imageD: './images/PopUpdesktop.svg',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
-},
-{
-  id: 4,
-  title: 'Tonic',
-  imageM: './images/PopUpmobile.svg',
-  imageD: './images/PopUpdesktop.svg',
-  heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
-},
+const cards = [
+  {
+    id: 1,
+    title: "Tonic",
+    imageM: "./images/Portfolio.png",
+    imageD: "./images/Portfolio1-big.png",
+    heading2: ["Canopy", "Back End Dev", "2015"],
+    cardDescription:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    languages: ["html", "css", "javascript"],
+  },
+  {
+    id: 2,
+    title: "Tonic",
+    imageM: "./images/multi-post.png",
+    imageD: "./images/Portfolio2.png",
+    heading2: ["Canopy", "Back End Dev", "2015"],
+    cardDescription:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    languages: ["html", "css", "javascript"],
+  },
+  {
+    id: 3,
+    title: "Tonic",
+    imageM: "./images/Portfolio3.png",
+    imageD: "./images/PopUpdesktop.svg",
+    heading2: ["Canopy", "Back End Dev", "2015"],
+    cardDescription:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    languages: ["html", "css", "javascript"],
+  },
+  {
+    id: 4,
+    title: "Tonic",
+    imageM: "./images/PopUpmobile.svg",
+    imageD: "./images/PopUpdesktop.svg",
+    heading2: ["Canopy", "Back End Dev", "2015"],
+    cardDescription:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    languages: ["html", "css", "javascript"],
+  },
 ];
 
 const portfolioCards = cards
@@ -65,11 +70,11 @@ const portfolioCards = cards
 <section class=" card-list card-list${index}">
                     <div>
                         <img class="card" src="${
-  card.imageM
-}" alt="Portfolio1" />
+                          card.imageM
+                        }" alt="Portfolio1" />
                         <img class="animated" src="${
-  card.imageD
-}" alt="nature-animated-image">
+                          card.imageD
+                        }" alt="nature-animated-image">
                     </div>
                     <div class="cards74">
                         <h2 class="tonic-class-${index}">${card.title}</h2>
@@ -81,42 +86,42 @@ const portfolioCards = cards
                         
                         <ul class="tools">
                         ${card.languages
-    .map((lang) => `<li class="tools-li">${lang}</li>`)
-    .join('')}
+                          .map((lang) => `<li class="tools-li">${lang}</li>`)
+                          .join("")}
                           </ul>
                         
                        <div class="view-project">
                            <button class="btn" type="button" onclick="showPop(${
-  card.id
-})">See Project</button>
+                             card.id
+                           })">See Project</button>
                         </div>
                     </div>
                 </section>
             </li>
 
-`,
+`
   )
-  .join('');
+  .join("");
 
 homeCard.innerHTML += portfolioCards;
 
-const modalCards = document.getElementById('modal-cards');
+const modalCards = document.getElementById("modal-cards");
 
 const modalCard = [
   {
     id: 1,
-    title: 'Tonic',
-    imageM: './images/PopUpmobile.svg',
-    imageD: './images/PopUpdesktopcopy.svg',
-    heading2: ['Canopy', 'Back End Dev', '2015'],
+    title: "Tonic",
+    imageM: "./images/PopUpmobile.svg",
+    imageD: "./images/PopUpdesktopcopy.svg",
+    heading2: ["Canopy", "Back End Dev", "2015"],
     cardDescriptionD:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript",
     cardDescriptionM:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It ",
-    languagesD: ['github', 'ruby', 'Bootstrap'],
-    languagesM: ['html', 'css', 'javascript'],
-    linkLive: 'https://ger619.github.io/Portfolio-mobile-version/',
-    linkSource: 'https://github.com/ger619/Portfolio-mobile-version',
+    languagesD: ["github", "ruby", "Bootstrap"],
+    languagesM: ["html", "css", "javascript"],
+    linkLive: "https://ger619.github.io/Portfolio-mobile-version/",
+    linkSource: "https://github.com/ger619/Portfolio-mobile-version",
   },
 ];
 
@@ -149,56 +154,68 @@ const modalCardDisplay = modalCard
       <div class="column-right-1">
           <ul class="modal-1">
               ${modeCard.languagesM
-    .map((lang) => `<li class="modal-2">${lang}</li>`)
-    .join('')}
+                .map((lang) => `<li class="modal-2">${lang}</li>`)
+                .join("")}
           </ul>
           <ul id="miss" class="miss modal-1">
           ${modeCard.languagesD
-    .map((lang) => `<li class="modal-2">${lang}</li>`)
-    .join('')}
+            .map((lang) => `<li class="modal-2">${lang}</li>`)
+            .join("")}
           
           </ul>
           <hr>
           <ul class="modal-1">
               <li class="modal-3" href="${
-  modeCard.linkLive
-}">See live <img class="btnimag" src="./images/icon/Icon.png"></li>
+                modeCard.linkLive
+              }">See live <img class="btnimag" src="./images/icon/Icon.png"></li>
               <li class="modal-3" href="${
-  modeCard.linkSource
-}">See Source <i class="fa fa-github"></i></li>
+                modeCard.linkSource
+              }">See Source <i class="fa fa-github"></i></li>
 
           </ul>
       </div>
   </div>
       </div>
   </div>
-`,
+`
   )
-  .join('');
+  .join("");
 
 modalCards.innerHTML += modalCardDisplay;
-const boxModal = document.querySelector('.card-portfolio-1');
-const openModal = document.querySelectorAll('.btn');
-const body = document.querySelector('.cards-section');
+const boxModal = document.querySelector(".card-portfolio-1");
+const openModal = document.querySelectorAll(".btn");
+const body = document.querySelector(".cards-section");
 
 openModal.forEach((open) => {
-  open.addEventListener('click', () => {
-    boxModal.style.display = 'block';
-    body.style.filter = 'blur(5px)';
+  open.addEventListener("click", () => {
+    boxModal.style.display = "block";
+    body.style.filter = "blur(5px)";
   });
 });
 
 // to close a modal
-const popClose = document.querySelector('.pop-close');
-popClose.addEventListener('click', () => {
-  boxModal.style.display = 'none';
-  body.style.filter = 'none';
-  document.querySelector('.btn').style.display = 'none';
+const popClose = document.querySelector(".pop-close");
+popClose.addEventListener("click", () => {
+  boxModal.style.display = "none";
+  body.style.filter = "none";
+  document.querySelector(".btn").style.display = "none";
 });
 
 // Form Validation
 
-const email = document.getElementById('email');
-const form = document.getElementById('form-email');
-const displayMsg = document.getElementById('form-message-error');
-displayMsg.innerHTML = 'Your email address should be in lowercase';
+const email = document.getElementById("email");
+const form = document.getElementById("form-email");
+const displayMsg = document.getElementById("form-message-error");
+displayMsg.innerHTML = "Your email address should be in lowercase";
+form.addEventListener("submit", (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    displayMsg.style.visibility = "visible";
+    displayMsg.classList.add("error-msg");
+    setTimeout(() => {
+      displayMsg.style.visibility = "hidden";
+    }, 3000);
+  } else {
+    displayMsg.style.visibility = "hidden";
+  }
+});
