@@ -3,13 +3,13 @@ const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 const bod = document.querySelector('.landing');
 
-function show() {
+function () {
   mainMenu.style.display = 'flex';
   mainMenu.style.top = '0';
   bod.style.filter = 'blur(5px)';
 }
 
-function close() {
+function () {
   mainMenu.style.top = '-100%';
   bod.style.filter = 'blur(5px)';
 }
