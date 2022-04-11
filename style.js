@@ -11,7 +11,7 @@ function show() {
 
 function close() {
   mainMenu.style.top = '-100%';
-  bod.style.filter = 'blur(5px)';
+  bod.style.filter = 'none';
 }
 
 openMenu.addEventListener('click', show);
