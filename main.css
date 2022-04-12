@@ -1019,13 +1019,6 @@ nav .openMenu {
   cursor: pointer;
 }
 
-nav .mainMenu .closeMenu,
-.icons i {
-  font-size: 2rem;
-  display: none;
-  cursor: pointer;
-}
-
 @media (max-width: 768px) {
   nav .mainMenu li a {
     display: inline-block;
