@@ -467,18 +467,6 @@ textarea.msg {
   height: 170px;
 }
 
-.about-btn {
-  margin: 24px;
-  color: #396df2;
-  padding: 16px;
-  border-radius: 10px;
-  background-color: #fff;
-  border: solid 1px #396df2;
-  padding-left: 16px;
-  width: 142px;
-  font-size: 17px;
-}
-
 .hr-4 {
   margin-left: 98px;
   width: 137px;
@@ -562,7 +550,8 @@ textarea.msg {
   text-align: center;
   letter-spacing: 0.03em;
   color: #6070ff;
-  margin-bottom: 45px;
+  border: solid 1px #396df2;
+  margin-left: 20%;
 }
 
 .form-style button:hover {

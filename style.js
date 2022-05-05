@@ -193,7 +193,6 @@ const popClose = document.querySelector('.pop-close');
 popClose.addEventListener('click', () => {
   boxModal.style.display = 'none';
   body.style.filter = 'none';
-
 });
 
 // Form Validation
