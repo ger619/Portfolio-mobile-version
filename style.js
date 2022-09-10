@@ -21,12 +21,13 @@ const homeCard = document.getElementById('home-portfolio');
 
 const cards = [{
   id: 1,
-  title: 'Tonic',
-  imageM: './images/Portfolio.png',
-  imageD: './images/Portfolio1-big.png',
+  title: 'Hotel Menu',
+  imageM: './images/MenuLogo.png',
+  imageD: './images/MenuLogo.png',
   heading2: ['Canopy', 'Back End Dev', '2015'],
-  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
+  cardDescription: 'A hotel menu using VanillaJs',
+  languages: ['javascript', 'html/css', 'Webpack'],
+  link: 'https://lusindiso.github.io/Javascript-Capstone/',
 },
 {
   id: 2,
@@ -36,6 +37,7 @@ const cards = [{
   heading2: ['Canopy', 'Back End Dev', '2015'],
   cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   languages: ['html', 'css', 'javascript'],
+
 },
 {
   id: 3,
@@ -45,6 +47,7 @@ const cards = [{
   heading2: ['Canopy', 'Back End Dev', '2015'],
   cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
   languages: ['html', 'css', 'javascript'],
+
 },
 {
   id: 4,
@@ -73,22 +76,21 @@ const portfolioCards = cards
                     </div>
                     <div class="cards74">
                         <h2 class="tonic-class-${index}">${card.title}</h2>
-                        
+
                         <h5 class="heading-canopy"><b>CANOPY</b> <span>·</span><small> Back End Dev <span>·</span> 2015 </small> </h5>
                         <p class="description">
                            ${card.cardDescription}
                         </p>
-                        
+
                         <ul class="tools">
                         ${card.languages
     .map((lang) => `<li class="tools-li">${lang}</li>`)
     .join('')}
                           </ul>
-                        
                        <div class="view-project">
-                           <button class="btn" type="button" onclick="showPop(${
-  card.id
-})">See Project</button>
+                           <button class="btn" type="button" onclick="showPop(${card.id})">See Project</button>
+                           <button class="btn" type="button" onclick="location.href='${card.link}';">Link</button>
+
                         </div>
                     </div>
                 </section>
@@ -133,8 +135,8 @@ const modalCardDisplay = modalCard
          <img class="forD-1" src="${modeCard.imageD}" alt="Pop Up Desktop" >
       <img class="forM-1" src="${modeCard.imageM}" alt="Pop Up Mobile" >
 
-         </div>    
-      
+         </div>
+
       <div>
       <div class="row">
       <div class="column-left-1">
@@ -156,7 +158,7 @@ const modalCardDisplay = modalCard
           ${modeCard.languagesD
     .map((lang) => `<li class="modal-2">${lang}</li>`)
     .join('')}
-          
+
           </ul>
           <hr>
           <ul class="modal-1">
@@ -193,7 +195,6 @@ const popClose = document.querySelector('.pop-close');
 popClose.addEventListener('click', () => {
   boxModal.style.display = 'none';
   body.style.filter = 'none';
-
 });
 
 // Form Validation
