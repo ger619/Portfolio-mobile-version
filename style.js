@@ -4,14 +4,14 @@ const openMenu = document.querySelector('.openMenu');
 const bod = document.querySelector('.landing');
 
 function show() {
-    mainMenu.style.display = 'flex';
-    mainMenu.style.top = '0';
-    bod.style.filter = 'blur(5px)';
+  mainMenu.style.display = 'flex';
+  mainMenu.style.top = '0';
+  bod.style.filter = 'blur(5px)';
 }
 
 function close() {
-    mainMenu.style.top = '-100%';
-    bod.style.filter = 'none';
+  mainMenu.style.top = '-100%';
+  bod.style.filter = 'none';
 }
 
 openMenu.addEventListener('click', show);
@@ -20,49 +20,49 @@ closeMenu.addEventListener('click', close);
 const homeCard = document.getElementById('home-portfolio');
 
 const cards = [{
-        id: 1,
-        title: 'Hotel Menu',
-        imageM: './images/MenuLogo.png',
-        imageD: './images/MenuLogo.png',
-        heading2: ['Canopy', 'Back End Dev', '2015'],
-        cardDescription: 'A hotel menu using VanillaJs',
-        languages: ['javascript', 'html/css', 'Webpack'],
-        link: 'https://lusindiso.github.io/Javascript-Capstone/',
-    },
-    {
-        id: 2,
-        title: 'Tonic',
-        imageM: './images/multi-post.png',
-        imageD: './images/Portfolio2.png',
-        heading2: ['Canopy', 'Back End Dev', '2015'],
-        cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        languages: ['html', 'css', 'javascript'],
+  id: 1,
+  title: 'Hotel Menu',
+  imageM: './images/MenuLogo.png',
+  imageD: './images/MenuLogo.png',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A hotel menu using VanillaJs',
+  languages: ['javascript', 'html/css', 'Webpack'],
+  link: 'https://lusindiso.github.io/Javascript-Capstone/',
+},
+{
+  id: 2,
+  title: 'Tonic',
+  imageM: './images/multi-post.png',
+  imageD: './images/Portfolio2.png',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  languages: ['html', 'css', 'javascript'],
 
-    },
-    {
-        id: 3,
-        title: 'Tonic',
-        imageM: './images/Portfolio3.png',
-        imageD: './images/PopUpdesktop.svg',
-        heading2: ['Canopy', 'Back End Dev', '2015'],
-        cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        languages: ['html', 'css', 'javascript'],
+},
+{
+  id: 3,
+  title: 'Tonic',
+  imageM: './images/Portfolio3.png',
+  imageD: './images/PopUpdesktop.svg',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  languages: ['html', 'css', 'javascript'],
 
-    },
-    {
-        id: 4,
-        title: 'Tonic',
-        imageM: './images/PopUpmobile.svg',
-        imageD: './images/PopUpdesktop.svg',
-        heading2: ['Canopy', 'Back End Dev', '2015'],
-        cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-        languages: ['html', 'css', 'javascript'],
-    },
+},
+{
+  id: 4,
+  title: 'Tonic',
+  imageM: './images/PopUpmobile.svg',
+  imageD: './images/PopUpdesktop.svg',
+  heading2: ['Canopy', 'Back End Dev', '2015'],
+  cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  languages: ['html', 'css', 'javascript'],
+},
 ];
 
 const portfolioCards = cards
-    .map(
-        (card, index) => `
+  .map(
+    (card, index) => `
 
 <li>
 <section class=" card-list card-list${index}">
