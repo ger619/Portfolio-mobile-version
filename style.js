@@ -31,22 +31,24 @@ const cards = [{
 },
 {
   id: 2,
-  title: 'Tonic',
-  imageM: './images/multi-post.png',
-  imageD: './images/Portfolio2.png',
+  title: 'Ger Crypto API',
+  imageM: './images/coin.png',
+  imageD: './images/coin.png',
   heading2: ['Canopy', 'Back End Dev', '2015'],
   cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
+  languages: ['html', 'css', 'javascript', 'Reactjs'],
+  link: 'https://deploy-preview-1--storied-cobbler-ece3f1.netlify.app/',
 
 },
 {
   id: 3,
-  title: 'Tonic',
+  title: 'Bank App',
   imageM: './images/Portfolio3.png',
   imageD: './images/PopUpdesktop.svg',
   heading2: ['Canopy', 'Back End Dev', '2015'],
   cardDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  languages: ['html', 'css', 'javascript'],
+  languages: ['Ruby on Rails', 'css ', 'javascript'],
+  link: 'https://tomb-stone.herokuapp.com/',
 
 },
 {
@@ -179,6 +181,7 @@ const modalCardDisplay = modalCard
   .join('');
 
 modalCards.innerHTML += modalCardDisplay;
+
 const boxModal = document.querySelector('.card-portfolio-1');
 const openModal = document.querySelectorAll('.btn');
 const body = document.querySelector('.cards-section');
